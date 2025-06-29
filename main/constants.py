@@ -27,7 +27,7 @@ LANGUAGES = {
 # File extensions
 FFSUBSYNC_SUPPORTED_EXTENSIONS = [".srt", ".ass", ".ssa", ".vtt"]
 ALASS_SUPPORTED_EXTENSIONS = [".srt", ".ass", ".ssa", ".sub", ".idx"]
-ALASS_EXTRACTABLE_SUBTITLE_EXTENSIONS = {"subrip": "srt", "ass": "ass", "webvtt": "vtt"}
+ALASS_EXTRACTABLE_SUBTITLE_EXTENSIONS = {"subrip": "srt", "ass": "ass", "webvtt": "vtt", "mov_text": "srt"}
 SUBTITLE_EXTENSIONS = [
     ".srt",
     ".vtt",
@@ -58,3 +58,7 @@ VIDEO_EXTENSIONS = [
     ".h265",
     ".hevc",
 ]
+
+# Subtitle track selection settings
+SUBTITLE_TRACK_SELECTION_ENABLED = True
+DEFAULT_SUBTITLE_LANGUAGE_PREFERENCE = "en"

@@ -30,6 +30,9 @@ default_settings = {
     "add_prefix": True,
     "additional_ffsubsync_args": "",
     "additional_alass_args": "",
+    "subtitle_track_selection_enabled": True,
+    "preferred_subtitle_language": "en",
+    "auto_select_subtitle_track": False,
 }
 
 def create_config_file():
